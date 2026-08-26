@@ -325,14 +325,12 @@ export const LOTTERY_CONFIGS: Record<LotteryType, LotteryConfig> = {
 
 export const INITIAL_PARTICIPANTS: Participant[] = [
   {
-    id: 'part-allyson',
-    name: 'Allyson Leandro',
-    phone: '(61) 99381-6602',
-    pixKey: 'allyson.leandro@gmail.com',
-    pixKeyType: 'email',
-    notes: 'Organizador',
-    createdAt: '2026-08-20T08:00:00Z',
-  },
+  id: 'part-nome-do-participante',
+  name: 'Nome Completo',
+  phone: '(61) 99999-9999',
+  pixKey: '',
+  createdAt: '2026-08-20T08:00:00Z',
+},
   {
     id: 'part-lais',
     name: 'Pabline Lais',
@@ -1167,3 +1165,25 @@ export const INITIAL_BOLOES: Bolao[] = [
     updatedAt: '2026-08-25T15:00:00Z',
   },
 ];
+{
+      participantId: 'part-gomes',
+      quotas: 1,
+      quotaNumbers: [16],
+      status: 'pago',
+      amountPaid: 39.0,
+      totalDue: 39.0,
+      paidAt: '2026-08-24T16:00:00Z',
+      paymentMethod: 'pix',
+    },
+    {
+      participantId: 'part-silvia',
+      quotas: 1,
+      quotaNumbers: [14],
+      status: 'pago',
+      amountPaid: 60.0,
+      totalDue: 60.0,
+      paidAt: '2026-08-26T10:00:00Z',
+      paymentMethod: 'pix',
+    },
+  ],
+  createdAt: '2026-08-22T09:00:00Z',
