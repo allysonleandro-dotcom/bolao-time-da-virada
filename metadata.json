@@ -1,6 +1,0 @@
-{
-  "name": "Bolão Time da Virada",
-  "description": "Gestão Inteligente de Bolões & Loterias: controle financeiro de cotas, simulador de desdobramentos, conferidor oficial Caixa e comprovantes para WhatsApp.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
